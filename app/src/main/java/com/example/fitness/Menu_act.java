@@ -59,10 +59,14 @@ public class Menu_act extends AppCompatActivity {
         ArrayList<String>clientes = new ArrayList<String>();
         clientes.add("Roberto");
         clientes.add("Ivan");
+        clientes.add("Patricio");
+        clientes.add("Juan");
 
         ArrayList<String>Planes = new ArrayList<String>();
         Planes.add("xtreme");
         Planes.add("mindfullness");
+        Planes.add("premium");
+        Planes.add("fitness");
 
         Intent i = new Intent(this,Clientes_act.class);
         i.putExtra("listaClientes",clientes);       //PREPARO el dato para ser enviado
